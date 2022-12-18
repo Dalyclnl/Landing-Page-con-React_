@@ -1,20 +1,4 @@
 
 body{
- background-color: aliceblue;
-}
-
-.Navbar{
-    background-color: black;
-    font-size: medium;
-    font-style:white ;
-}
-
-.Jubotron{
-    background-color: gainsboro;
-    text-align: center;
-    font-size: large;
-
-}
-.Card{
-    background-color: white;
+ background-color:white
 }

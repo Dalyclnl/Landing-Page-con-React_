@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM  from "react-dom";
 import { Card } from "./Card.js";
 import { Navbar } from "./Navbar.js";
 import { Jumbotron } from "./Jumbotron.js";
