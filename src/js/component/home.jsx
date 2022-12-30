@@ -12,13 +12,13 @@ import { Footer } from "./Footer.js";
 const Home = () => {
 	return (
 		<>
-			<div className="text-center">
+			<div className="page">
 				<Navbar/>
 				<Jumbotron/>
 				<Card/>
 				<Footer/>
-			</div>	
-		</>
+			</div>
+		</>	
 	);
 };
 

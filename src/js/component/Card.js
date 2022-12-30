@@ -1,18 +1,31 @@
 
+import PropType from "prop-types";
 import React from "react";
 
-
-export const Card = () => {
+       
+export const Card = (props) => {
 	return (
-        <div className="container">
-            <div className="card" >
-            <img src= "https://via.placeholder.com/500x325.png" className="card-img-top" ></img>
-            </div>
-            <div className="card-body">
-                <h5 className="card-title"></h5>
-                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href='#' className="btn btn-primary">Find out more!</a>
+        <div class="card-deck">
+         <div className="card text-top">
+        <img className="card-img-top" src={props.card_imageUrl} alt="Card image cap"></img>
+        <div className="card-body ">
+            <h5 className="card-title">{props.card_title}</h5>
+            <p className="card-text">{props.card_descriptext} </p>
+        </div>
+        <div className="card-footer ">
+            <a href={props.btn_Url} className="btn btn-primary p-2">{props.btn_Label}</a>
             </div>
         </div>
+    </div>
+
 	);
 };
+Card.propTypes = {
+    card_imageUrl: PropType.string,
+	card_title: PropType.string,
+	card_descriptext: PropType.string,
+	btn_Url: PropType.string,
+	btn_Label: PropType.string,
+};
+
+
