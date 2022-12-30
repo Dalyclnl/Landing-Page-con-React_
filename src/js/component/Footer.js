@@ -1,12 +1,12 @@
 
 import React from "react";
 
-export const Footer = (props) => {
+export const Footer = () => {
 	return (
             <div>
-            <footer class="text-center text-white" style="bg-dark text-center text-white;">
-              <div class="container p-4 pb-0">
-                <section class="">
+            <footer className="text-center text-white" >
+              <div classname="container p-4 pb-0">
+                <section class="foot">
                   <p class="d-flex justify-content-center align-items-center">
                   </p>
                 </section>

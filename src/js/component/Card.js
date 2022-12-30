@@ -5,7 +5,7 @@ import React from "react";
 export const Card = () => {
 	return (
         <div className="container">
-            <div className="card" style="width: 18rem;">
+            <div className="card" >
             <img src= "https://via.placeholder.com/500x325.png" className="card-img-top" ></img>
             </div>
             <div className="card-body">
