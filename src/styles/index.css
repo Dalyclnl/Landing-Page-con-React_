@@ -7,6 +7,12 @@ justify-content: center;
  margin: 2px;
  align-items: center;
 }
+
+.navbar{
+    height:max-content;
+}
+
+
 .navbar-brand{
     align-items: left;
     padding-left: 5px;
@@ -27,8 +33,6 @@ margin-bottom: 30px;
 #jumbotron p{
     font-size: large;
 }
-
-
 
 .container fluid{
     padding: 0;
