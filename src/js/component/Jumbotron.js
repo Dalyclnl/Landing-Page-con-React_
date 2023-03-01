@@ -2,9 +2,9 @@ import React from "react";
 
 export const Jumbotron = () => {
   return (
-    <div className="container jumbo ">
-      <div className="jumbotron">
-        <h1 className="display-4">A Warm Welcome!</h1>
+    <div className="container jumbo" id="jumbotron">
+      <div className=" py-5">
+        <h1 className="display-4"><strong> A Warm Welcome! </strong></h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam in
@@ -20,3 +20,6 @@ export const Jumbotron = () => {
     </div>
   );
 };
+
+
+

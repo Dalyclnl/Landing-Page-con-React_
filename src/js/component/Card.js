@@ -3,69 +3,71 @@ import React from "react";
 
 export const Card = (props) => {
   return (
-     <div className="card-container">
-        <div className="card-deck">
-          <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-              <div class="card h-100">
-                <img src="..." class="card-img-top" alt="..."/>
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-                <div class="card-footer">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
-              </div>
+    <div className="container fluid">
+      <div className="row row-cols-1 row-cols-md-4 justify-content">
+        <div className="col mb-4">
+          <div className="card h-100">
+              <img src="http://placehold.it/500x325.jpg" className="card-img-top" alt={props.alt}  />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at vestibulum nibh, sit amet posuere purus. 
+              </p>           
             </div>
-            <div class="col">
-              <div class="card h-100">
-                <img src="..." class="card-img-top" alt="..."/>
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                </div>
-                <div class="card-footer">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card h-100">
-                <img src="..." class="card-img-top" alt="..."/>
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                </div>
-                <div class="card-footer">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card h-100">
-                <img src="..." class="card-img-top" alt="..."/>
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                </div>
-                <div class="card-footer">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
-              </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Go somewhere    </a>   
             </div>
           </div>
         </div>
-    </div>                 
+        <div class="col mb-4">
+          <div class="card h-100">
+             <img src="http://placehold.it/500x325.jpg" class="card-img-top" alt={props.alt} />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p className="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque non lacus sed fermentum. Quisque semper elementum nulla a luctus.
+              </p>          
+            </div>
+            <div class="card-footer">
+            <a href="#" class="btn btn-primary">Go somewhere    </a>   
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+             <img src="http://placehold.it/500x325.jpg" class="card-img-top" alt={props.alt} />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p className="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at vestibulum nibh, sit amet posuere purus
+              </p>                         
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Go somewhere    </a> 
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+             <img src="http://placehold.it/500x325.jpg" className="card-img-top" alt={props.alt} />      
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p className="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at vestibulum nibh, sit amet posuere purus. Proin eget volutpat magna, sit amet faucibus ipsum. 
+              </p>             
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Go somewhere    </a>   
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 };
 
+// Card.propTypes = {
+//   src: PropType.props.src,
+//   alt: PropType.props.alt,
 
-
-Card.propTypes = {
-  card_imageUrl: PropType.string,
-  card_title: PropType.string,
-  card_descriptext: PropType.string,
-  btn_Url: PropType.string,
-  btn_Label: PropType.string,
-};
+// };

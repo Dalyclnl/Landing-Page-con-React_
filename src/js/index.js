@@ -16,4 +16,4 @@ import { Navbar } from "./component/Navbar";
 ReactDOM.render(<Home />, document.querySelector("#app"));
 ReactDOM.render(<Navbar />, document.querySelector("#navbar"));
 ReactDOM.render(<Jumbotron />, document.querySelector("#jumbotron"));
-ReactDOM.render(<Card />, document.querySelector("#card_1"));
+ReactDOM.render(<Card />, document.querySelector("#card"));

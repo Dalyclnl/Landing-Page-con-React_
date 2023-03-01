@@ -11,16 +11,14 @@ import { Footer } from "./Footer.js";
 
 const Home = () => {
 	return (
-		<>
-			<div className="page">
-				<Navbar/>
-				<Jumbotron/>
-				<Card/>
-				<Footer/>
-			</div>
-		</>	
+		<div className="container" id="landpage">
+			<Navbar/>
+			<Jumbotron/>
+			<Card />
+			<Footer/>
+		</div>
 	);
-};
+}; 
 
 export default Home;
 
